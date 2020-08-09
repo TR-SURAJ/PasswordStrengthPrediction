@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
-#import xgboost as xgb
+import xgboost as xgb
 from flask import Flask,render_template,url_for,request
 
 def word_divide_char(inputs):
